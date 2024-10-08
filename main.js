@@ -108,7 +108,7 @@ const template = [
                 label: 'Whatsapp',
                 click: async () => {
                     const { shell } = require('electron')
-                    await shell.openExternal('https://api.whatsapp.com/send?phone=918121335436&text=Hello%20Swipe! I need help with')
+                    await shell.openExternal('')
                 }
             },
 
@@ -117,9 +117,9 @@ const template = [
                 click: async () => {
                     const { shell } = require('electron');
                     // Define the recipient, subject, and body of the email
-                    const recipient = 'team@getswipe.in';
+                    const recipient = '';
                     const subject = 'I Need a Help With';
-                    const body = 'Hello Swipe, \n\n I need a Help With';
+                    const body = '';
                     // Construct the mailto URL
                     const mailtoUrl = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
                     // Open the default email client with the pre-populated email
