@@ -58,7 +58,7 @@ function createWindow() {
 
     appSession.on('will-download', (event, item, webContents) => {
 
-        app.setAppUserModelId("Swipe Billing"),
+        app.setAppUserModelId("demo"),
 
             item.on('done', (event, state) => {
                 if (state === 'completed') {
