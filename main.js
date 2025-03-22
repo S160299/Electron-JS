@@ -23,7 +23,7 @@ function clearSiteData() {
 }
 
 function createWindow() {
-    win = new BrowserWindow({ title: 'Swipe-Billing', width: 1200, height: 700, icon: './icon.png', progressBar: true })
+    win = new BrowserWindow({ title: '', width: 1200, height: 700, icon: './icon.png', progressBar: true })
     win.loadURL('https://www.google.com')
 
     const { Menu } = require('electron');
